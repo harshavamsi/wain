@@ -1,0 +1,6 @@
+project: wain
+target: wain
+
+cmds:
+  - cmd: /binary_parser
+  - cmd: /text_parser
