@@ -1,0 +1,5 @@
+project: wain
+target: text_parser
+
+cmds:
+  - cmd: /text_parser
