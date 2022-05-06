@@ -34,8 +34,8 @@ path = "fuzz_targets/text_parser.rs"
 test = false
 doc = false
 
-# [[bin]]
-# name = "validation"
-# path = "fuzz_targets/validation.rs"
-# test = false
-# doc = false
+[[bin]]
+name = "validation"
+path = "fuzz_targets/validation.rs"
+test = false
+doc = false

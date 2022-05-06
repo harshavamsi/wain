@@ -12,7 +12,7 @@ WORKDIR /repo
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
 # RUN ${HOME}/.cargo/bin/cargo build --all
-RUN cd fuzz && ${HOME}/.cargo/bin/cargo fuzz build
+RUN cd fuzz && ${HOME}/.cargo/bin/cargo fuzz build binary_parser && ${HOME}/.cargo/bin/cargo fuzz build text_parser
 
 # Package Stage
 FROM ubuntu:20.04
